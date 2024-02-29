@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog-Page</title>
+    <meta name="author" content="David Grzyb" />
+    <meta name="description" content="" />
+
+    <!-- Tailwind -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
+
+      .font-family-karla {
+        font-family: karla;
+      }
+    </style>
+
+    <!-- AlpineJS -->
+    <script
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+      defer
+    ></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+      integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-[#dfdfdf] font-family-karla">
+    <div class="py-5 flex justify-center">
+      <a href="./index.html">
+        <button
+          id="blog"
+          class="btn bg-primary-color rounded-xl text-white font-medium text-xl capitalize py-3 hover:bg-blue-600 bg-blue-500 px-5 md:px-8 transition-all duration-300"
+        >
+          Back to Main
+        </button>
+      </a>
+    </div>
+    <div class="px-4 py-6 md:px-6 lg:py-12">
+      <div class="space-y-4">
+        <div class="space-y-2">
+          <h1 class="text-3xl font-extrabold tracking-tight lg:text-5xl">
+            Understanding JavaScript: Scopes and REST
+          </h1>
+          <p class="text-gray-500 dark:text-gray-400">
+            Posted on August 24, 2023
+          </p>
+        </div>
+        <p
+          class="text-base leading-7 md:text-xl md:leading-8 dark:text-gray-400"
+        >
+          JavaScript is a versatile and powerful language, but it can also be
+          tricky to master. In this article, we'll explore some of the
+          fundamental concepts of JavaScript, including variable scope, null and
+          undefined, and the basics of working with REST APIs.
+        </p>
+      </div>
+      <nav class="grid grid-cols-1 gap-6 my-8 lg:grid-cols-2 lg:my-12">
+        <div class="space-y-2">
+          <h2 class="text-2xl font-bold tracking-tight">
+            Scope of var, let, and const
+          </h2>
+          <p>
+            Understanding variable scope is crucial to writing clean and
+            maintainable JavaScript code. In this section, we'll take a closer
+            look at the differences between var, let, and const, and how they
+            affect the scope of variables in JavaScript.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <h2 class="text-2xl font-bold tracking-tight">
+            Use cases of null and undefined
+          </h2>
+          <p>
+            In JavaScript, null and undefined are used to represent the absence
+            of a value. While they may seem similar at first glance, they have
+            different use cases and behaviors. In this section, we'll explore
+            when to use null and undefined, and how to handle them properly in
+            your code.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <h2 class="text-2xl font-bold tracking-tight">What is REST API?</h2>
+          <p>
+            The term "REST API" is often used in the context of web development,
+            but what does it actually mean? In this section, we'll explain the
+            principles of REST, the key concepts of RESTful APIs, and how to
+            make requests to a REST API using JavaScript.
+          </p>
+        </div>
+      </nav>
+      <article class="prose prose-gray mx-auto dark:prose-invert">
+        <p>
+          JavaScript is a versatile and powerful language, but it can also be
+          tricky to master. In this article, we'll explore some of the
+          fundamental concepts of JavaScript, including variable scope, null and
+          undefined, and the basics of working with REST APIs.
+        </p>
+        <h2>Scope of var, let, and const</h2>
+        <p>
+          Understanding variable scope is crucial to writing clean and
+          maintainable JavaScript code. In this section, we'll take a closer
+          look at the differences between var, let, and const, and how they
+          affect the scope of variables in JavaScript.
+        </p>
+        <h2>Use cases of null and undefined</h2>
+        <p>
+          In JavaScript, null and undefined are used to represent the absence of
+          a value. While they may seem similar at first glance, they have
+          different use cases and behaviors. In this section, we'll explore when
+          to use null and undefined, and how to handle them properly in your
+          code.
+        </p>
+        <h2>What is REST API?</h2>
+        <p>
+          The term "REST API" is often used in the context of web development,
+          but what does it actually mean? In this section, we'll explain the
+          principles of REST, the key concepts of RESTful APIs, and how to make
+          requests to a REST API using JavaScript.
+        </p>
+      </article>
+    </div>
+  </body>
+</html>
